@@ -1,4 +1,3 @@
-import './App.css';
 import './assets/styles/output.css';
 import {
   BrowserRouter as Router,
@@ -22,7 +21,7 @@ function App() {
             <Task1 />
           </Route>
 
-          <Route>
+          <Route exact path="">
             <Redirect to="/task1" />
           </Route>
         </Switch>
